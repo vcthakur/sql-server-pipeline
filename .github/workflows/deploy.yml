@@ -1,0 +1,17 @@
+name: Deploy SQL Procs to Local SQL Server
+
+on:
+  push:
+    paths:
+      - 'procs/**/*.sql'
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy Stored Procedures using PowerShell
+        shell: pwsh
+        run: ./deploy.ps1
