@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Vikass-MacBook-Air",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus12.actions.githubusercontent.com/cF8T7qR84vo1XUTfL6k2XBu4zQ2nFoR5oZoRqRk4Po9hSMTnpT/",
+  "gitHubUrl": "https://github.com/vcthakur/sql-server-pipeline",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
